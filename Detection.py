@@ -9,6 +9,7 @@ n, target = list(map(int, input().split()))
 
 array = list(map(int, input().split()))
 
+# mid값을 찾아서 target값과 비교 후 재귀 진행
 def binary_search(array, target, start, end):
     if start>end:
         return
