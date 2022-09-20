@@ -19,6 +19,7 @@ dday = list(map(int, input().split()))
 today_date = datetime(today[0], today[1], today[2])
 dday_date = datetime(dday[0], dday[1], dday[2])
 
+# 날짜 구하는 방법
 ddays = (dday_date - today_date).days
 
 year1000Days = GetYear1000Days(today[0])
